@@ -1,0 +1,53 @@
+# Configuración automática de finales de línea
+* text=auto
+
+# Archivos de código fuente
+*.java text diff=java
+*.properties text
+*.xml text
+*.json text
+*.yaml text
+*.yml text
+*.md text
+*.txt text
+
+# Archivos de scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Archivos binarios
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.ser binary
+*.class binary
+*.jar binary
+*.zip binary
+
+# Archivos de imágenes y recursos
+*.css text
+*.js text
+*.html text
+*.htm text
+
+# Especificar codificación para ciertos archivos
+*.java working-tree-encoding=UTF-8
+*.properties working-tree-encoding=UTF-8
+*.md working-tree-encoding=UTF-8
+*.txt working-tree-encoding=UTF-8
+
+# Archivos de diseño
+*.svg text
+*.psd binary
+*.ai binary
+
+# Archivos de audio/video
+*.mp3 binary
+*.mp4 binary
+*.avi binary
+*.wav binary
+*.mov binary

@@ -1,0 +1,118 @@
+# Archivos compilados
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+out/
+target/
+build/
+bin/
+dist/
+
+# Archivos de proyecto de IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.metadata/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Archivos de estado de la aplicación (datos)
+*.ser
+*.dat
+*.db
+*.sqlite
+data/
+database/
+billar_state.ser
+billar_state_*.ser
+
+# Archivos de dependencias
+node_modules/
+.vscode-test/
+*.pem
+*.p12
+*.key
+*.crt
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+application.properties
+application-dev.properties
+
+# Archivos de sistema operativo
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.~
+
+# Archivos de cobertura de código
+*.cover
+*.coverage
+.nyc_output/
+coverage/
+
+# Archivos de test
+*.test
+*.spec
+target/test-classes/
+
+# Archivos de gradle/maven (si usas después)
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+mvnw
+mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Archivos de dependencias locales
+lib/*.jar
+!lib/README.md
+
+# Archivos de configuración personal
+*.local
+*.private
+*.secret
+
+# Archivos de backup
+*.save
+*.save-*
+*.orig
+*.old
+
+# Archivos de compresión
+*.zip
+*.tar.gz
+*.rar
+*.7z
